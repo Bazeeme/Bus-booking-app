@@ -1,0 +1,129 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f4f8;
+    color: #243047;
+}
+
+.header {
+    background: #173f75;
+    color: white;
+    text-align: center;
+    padding: 24px 16px;
+}
+
+.header h1 {
+    margin: 0 0 8px;
+    font-size: 32px;
+}
+
+.header p {
+    margin: 0;
+}
+
+.container {
+    width: 92%;
+    max-width: 600px;
+    margin: 35px auto;
+}
+
+.booking-card {
+    background: white;
+    padding: 28px;
+    border-radius: 14px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.booking-card > h2 {
+    margin-top: 0;
+}
+
+.subtitle {
+    color: #667085;
+    margin-bottom: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: 600;
+    margin-top: 6px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccd5e0;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: 2px solid #8ab7f0;
+    border-color: #1769aa;
+}
+
+button {
+    padding: 13px;
+    margin-top: 12px;
+    background: #1769aa;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #104c80;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+#statusMessage {
+    margin-top: 18px;
+    overflow-wrap: anywhere;
+}
+
+.confirmation {
+    margin-top: 20px;
+    padding: 18px;
+    background: #e7f8ed;
+    border: 1px solid #8bd3a5;
+    border-radius: 10px;
+}
+
+.confirmation h2 {
+    color: #16733a;
+}
+
+.confirmation p {
+    overflow-wrap: anywhere;
+}
+
+#bookingDetails p {
+    margin: 8px 0;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #667085;
+}
